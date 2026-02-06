@@ -1,2 +1,5 @@
 .DS_Store
 imgs/.DS_Store
+# keys
+mirror_key
+mirror_key.pub
