@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout (full history)
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -23,5 +23,5 @@ jobs:
 
       - name: Push to public
         run: |
-          git remote add public git@github.com:G3org3s/AlphaCheckers.git
+          git remote add public git@github.com:nepallium/AlphaCheckers.git
           git push public main:main --force
